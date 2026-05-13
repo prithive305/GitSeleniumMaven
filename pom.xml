@@ -3,4 +3,22 @@
   <groupId>com.selenium</groupId>
   <artifactId>GitSeleniumMaven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
+  </properties>
+  <dependencies>
+  <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.41.0</version>
+    <scope>compile</scope>
+</dependency>
+  	<dependency>
+  		<groupId>com.selenium</groupId>
+  		<artifactId>selenium3</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
